@@ -13,10 +13,9 @@
 ​	视频中主要介绍了两种函数构建方法，x为输入，y为预测值。
 
 ​	Linear的方法：
-$$\begin{align\\*}
-
+$$
 y = b + wx/b+\sum_j{w_jx_j}
-\end{align\\*}$$
+$$
 
 ​	sigmoid加总的方法（没看到名字）：
 $$
