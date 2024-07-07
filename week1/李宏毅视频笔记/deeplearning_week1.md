@@ -21,6 +21,7 @@ $$
 $$
 y = b + \sum_{i}c_i*sigmoid(b_i+w_i*x)
 $$
+    或者
 $$
 y= b+\sum_{i}c_i*sigmoid(b_i+\sum_j{w_{ij}*x_j})
 $$
