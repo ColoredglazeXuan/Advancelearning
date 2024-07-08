@@ -17,10 +17,13 @@ $$
 y = b + wx/b+\sum_j{w_jx_j}
 $$
 
-
 ​	sigmoid加总的方法（没看到名字）：
 $$
-y = b + \sum_{i}c_i*sigmoid(b_i+w_i*x)/y= b+\sum_{i}c_i*sigmoid(b_i+\sum_j{w_{ij}*x_j})
+y = b + \sum_{i}c_i*sigmoid(b_i+w_i*x)
+$$
+    或者
+$$
+y= b+\sum_{i}c_i*sigmoid(b_i+\sum_j{w_{ij}*x_j})
 $$
 ​	其中xj表示多个数据输入，例如：前一天的观影人数x1到前七天的x7。另外，视频结尾处还提及了ReLU的方法，用c*max(0, b + wx)代替sigmoid函数，加总来模拟预测曲线。
 
