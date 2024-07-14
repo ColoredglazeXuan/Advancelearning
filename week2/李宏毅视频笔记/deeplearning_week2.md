@@ -58,7 +58,7 @@ $$
 
 ​		Classification时，输出有多个值（以此表示是某一类的可能性），因此过程中用到了Soft-max（$y_i' = \frac{exp(y_i)}{\sum{exp(y_j)}}$，将所有的结果归一化到0-1，和为1），Classification的ŷ一般用向量表示，来保证类与类之间等差，因为向量与值还是有所差异，Classification的Loss function使用的Cross-entropy（$e = -\sum{ŷ_ilny_i'}$，而不是用MSE（$\sum{(ŷ_i-y_i')^2}$。（因为使用MSE时，根据training中的y值大小，会导致y值很大时，形成一个很平坦的区域，造成训练卡住，无法得到真正的结果）
 
-![](Loss of Classification.png)
+![](LossofClassification.png)
 
 （minimizing cross-entropy = maximizing likehood）
 
