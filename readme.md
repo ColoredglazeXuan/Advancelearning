@@ -7,8 +7,15 @@
 |	|	|--	gitlearning.md
 |-- week2
 |	|-- 李宏毅视频笔记
-|	|	|-- deeplearning_week2.cd
+|	|	|-- deeplearning_week2.md
 |	|-- Linux搭建笔记
 |	|	|-- LinuxSitting.md
+|-- week2
+|	|-- 李宏毅视频笔记
+|	|	|-- deeplearning_week3.md
+|	|	|-- HW1
+|	|	|-- HW2
+|	|-- Pytorch和PaddlePaddle学习
+|	|	|-- PytorchLearning.md
 ```
 
