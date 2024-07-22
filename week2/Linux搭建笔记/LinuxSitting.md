@@ -55,5 +55,6 @@ man			#显示命令的使用手册，部分命令存在使用手册，包含命�
 
 alias		#创建命令别名，alias name = 'string'，string包含需要执行的一系列命令，相当于顺序执行字符串中的命令
 --help		#很多程序有的一个可选项，用于显示命令语法和说明
+export PATH=/home/yourName/anaconda3/bin/:$PATH #把程序加入系统路径
 ```
 

@@ -68,3 +68,9 @@ git merge name #合并目标分支到当前分支
 git branch -d name #删除分支
 ```
 
+#### 部分问题
+
+```python
+git config --global core.autocrlf true #解决'LF will be replaced by CRLF the next time Git touches it'问题，Dos/Windows平台默认换行符：回车（CR）+换行（LF），即’\r\n’，Mac/Linux平台默认换行符：换行（LF），即’\n’
+```
+
