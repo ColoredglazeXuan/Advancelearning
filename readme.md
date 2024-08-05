@@ -22,5 +22,8 @@
 |	|	|-- deeplearning_week4.md
 |	|	|-- HW3
 |	|	|-- HW4
+|-- week5
+|	|-- NLP视频学习笔记
+|	|	|-- NLPLearningweek1.md
 ```
 
